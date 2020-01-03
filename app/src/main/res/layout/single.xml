@@ -1,0 +1,187 @@
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/single_card"
+    android:layout_width="165dp"
+    android:layout_height="165dp"
+    android:layout_marginTop="10dp"
+    app:cardBackgroundColor="?attr/colorPrimary"
+    app:cardCornerRadius="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/city_name"
+            style="@style/Theme.MaterialComponents"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.1dp"
+            android:id="@+id/line"
+            android:layout_below="@+id/city_name"
+            android:layout_marginTop="6dp"
+            android:background="#FFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="6dp"
+            android:orientation="horizontal"
+            android:id="@+id/first_line"
+            android:layout_below="@+id/line"
+            >
+
+            <ImageView
+                android:id="@+id/temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:src="@drawable/temperature"
+                />
+
+            <TextView
+                android:id="@+id/temp_text"
+                style="@style/Theme.MaterialComponents"
+                android:layout_width="46dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_marginStart="2dp"
+                android:textSize="12sp"
+                />
+
+            <ImageView
+                android:id="@+id/humidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/humidity"
+                />
+
+            <TextView
+                android:id="@+id/humidity_text"
+                style="@style/Theme.MaterialComponents"
+                android:layout_width="46dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_marginStart="2dp"
+                android:textSize="12sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="6dp"
+            android:id="@+id/second_line"
+            android:layout_below="@id/first_line">
+
+            <ImageView
+                android:id="@+id/pressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:src="@drawable/pressure"
+                />
+
+            <TextView
+                android:id="@+id/pressure_text"
+                style="@style/Theme.MaterialComponents"
+                android:layout_width="46dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_marginStart="2dp"
+                android:textSize="12sp"
+                />
+
+            <ImageView
+                android:id="@+id/flag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/flag"
+                />
+
+            <TextView
+                android:id="@+id/flag_text"
+                style="@style/Theme.MaterialComponents"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_marginStart="4dp"
+                android:textSize="12sp"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="6dp"
+            android:id="@+id/third_line"
+            android:layout_below="@+id/second_line">
+
+            <ImageView
+                android:id="@+id/cloud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:src="@drawable/cloud"
+                />
+
+            <TextView
+                android:id="@+id/cloud_text"
+                style="@style/Theme.MaterialComponents"
+                android:layout_width="46dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_marginStart="2dp"
+                android:textSize="12sp"
+                />
+
+            <ImageView
+                android:id="@+id/wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/windmill"
+                />
+
+            <TextView
+                android:id="@+id/wind_text"
+                style="@style/Theme.MaterialComponents"
+                android:layout_width="46dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:textSize="12sp"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>
+

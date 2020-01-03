@@ -1,0 +1,43 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+<com.google.android.material.button.MaterialButton
+    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+    android:textColor="#FFF"
+    android:id="@+id/europe_b"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/europe" />
+
+<com.google.android.material.button.MaterialButton
+    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+    android:textColor="#FFF"
+    android:id="@+id/africa_b"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/africa" />
+
+<com.google.android.material.button.MaterialButton
+    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+    android:textColor="#FFF"
+    android:id="@+id/asia_b"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/asia" />
+
+<com.google.android.material.button.MaterialButton
+    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+    android:textColor="#FFF"
+    android:id="@+id/south_america_b"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/south_america" />
+
+<com.google.android.material.button.MaterialButton
+    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+    android:textColor="#FFF"
+    android:id="@+id/north_america_b"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/north_america" />
+
+</merge>

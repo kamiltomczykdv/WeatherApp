@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="welcome_text">to WeatherApp</string>
+    <string name="title">Welcome</string>
+    <string name="europe">Europe</string>
+    <string name="africa">Africa</string>
+    <string name="asia">Asia</string>
+    <string name="south_america">South America</string>
+    <string name="north_america">North America</string>
+    <string name="back">Back</string>
+    <string name="username">Username</string>
+    <string name="cn">Continue</string>
+</resources>
